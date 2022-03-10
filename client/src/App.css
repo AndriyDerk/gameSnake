@@ -1,0 +1,105 @@
+.MainPage {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Rowdies', cursive;
+}
+
+.left__info{
+  width: 400px;
+}
+
+.gameSpace{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background: #000;
+  margin-top: 5%;
+  border: 5px solid #000;
+  border-radius: 2%;
+}
+
+.snake{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: #00FF00;
+  border-radius: 40%;
+}
+.gameSpace__info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.apple{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.rules{
+  width: 400px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.start{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.feed{
+  margin-top: 15px;
+}
+
+.feed-item{
+  display: flex;
+  margin-top: 10px;
+}
+
+.feed-appearance{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.feed-appearance1{
+  background: #FFFF00;
+}
+.feed-appearance2{
+  background: #00FFFF;
+}
+.feed-appearance3{
+  background: #FF0000;
+}
+
+.login, .registration{
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.records{
+  margin-top: 20px;
+}
+
+.record{
+  width: 350px;
+  padding: 20px;
+  border: 2px #000 solid;
+  border-radius: 20px;
+}
+.userRecord{
+  margin-left: 10px;
+}
+.logout{
+  padding: 2px;
+  border: 2px #000 solid;
+  border-radius: 25%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+

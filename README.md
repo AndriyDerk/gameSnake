@@ -1,6 +1,6 @@
 
-Front end(client/..) by https://github.com/m4xx1k
-Back end(server: controllers, error, middleware, models, routes, db) by https://github.com/AndriyDerk
+# Front end(client/..) by https://github.com/m4xx1k
+# Back end(server: controllers, error, middleware, models, routes, db) by https://github.com/AndriyDerk
 
 ------------------------------------------------------------------------------------------------------
 
